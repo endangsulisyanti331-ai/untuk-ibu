@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasih Sayang Ibu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f9f0ff, #ffe6f2);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 30px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background: linear-gradient(45deg, #ff9ec0, #ff6b9d);
+            margin: -30px -30px 30px;
+            color: white;
+            position: relative;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            font-style: italic;
+            opacity: 0.9;
+        }
+        
+        .heart-icon {
+            font-size: 3rem;
+            color: #ff4081;
+            margin: 20px 0;
+            animation: heartbeat 1.5s infinite;
+        }
+        
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        .poem {
+            background-color: #fff5f9;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            border-left: 5px solid #ff6b9d;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .poem p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .quote {
+            text-align: center;
+            font-style: italic;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+            border-radius: 10px;
+            border-top: 3px solid #6bb5ff;
+            border-bottom: 3px solid #6bb5ff;
+        }
+        
+        .quote p {
+            font-size: 1.3rem;
+            color: #2c3e50;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .gallery-item {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            background: linear-gradient(45deg, #ffccd5, #ffb6c1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b9d, #ff4081);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(255, 107, 157, 0.4);
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 107, 157, 0.6);
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            .gallery-item {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kasih Sayang Ibu</h1>
+            <p class="subtitle">Tak Terhingga Sepanjang Masa</p>
+            <div class="heart-icon">❤️</div>
+        </header>
+        
+        <div class="content">
+            <div class="poem">
+                <p>Kasih sayang ibu, tak terhingga sepanjang masa</p>
+                <p>Hangatnya pelukan, lembutnya sentuhan</p>
+                <p>Memberi kekuatan di kala lemah</p>
+                <p>Menjadi pelita di kala gelap</p>
+                <p>Tak pernah lelah, tak pernah berhenti</p>
+                <p>Mengalir seperti sungai yang tak pernah kering</p>
+            </div>
+            
+            <div class="quote">
+                <p>"Kasih ibu kepada beta, tak terhingga sepanjang masa"</p>
+            </div>
+            
+            <div class="poem">
+                <p>Ibu, engkau adalah malaikat tanpa sayap</p>
+                <p>Yang selalu hadir dalam setiap langkahku</p>
+                <p>Doa-doa mu mengiringi setiap nafasku</p>
+                <p>Kasih sayang mu membimbing setiap langkahku</p>
+                <p>Terima kasih ibu, atas segala pengorbananmu</p>
+                <p>Yang takkan pernah bisa kubalas dengan apapun</p>
+            </div>
+            
+            <div class="gallery">
+                <div class="gallery-item">Pelukan Ibu</div>
+                <div class="gallery-item">Doa Ibu</div>
+                <div class="gallery-item">Pengorbanan</div>
+                <div class="gallery-item">Kasih Tak Bersyarat</div>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="#" class="btn">Ucapkan Terima Kasih pada Ibu</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Dibuat dengan sepenuh hati dari anakmu❤️ untuk semua ibu di dunia</p>
+            <p>Kasih sayang ibu takkan pernah tergantikan</p>
+        </footer>
+    </div>
+
+    <script>
+        // Efek interaktif sederhana
+        document.querySelector('.btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Terima kasih Ibu, atas segala kasih sayangmu! ❤️');
+        });
+        
+        // Animasi untuk elemen gallery
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        galleryItems.forEach((item, index) => {
+            item.style.animationDelay = `${index * 0.2}s`;
+        });
+    </script>
+</body>
+</html>
